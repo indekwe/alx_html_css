@@ -84,3 +84,22 @@ span {
     border-radius: 50%;
     object-fit: cover;
 }
+.comment {
+    display: flex;
+    width: 1440px;
+    height: 392px;
+    background-color: #C271FF;
+    justify-content:center;
+    color: white;
+    
+}
+.image {
+    margin-top: 5rem;
+}
+.commenter {
+    margin-top: 5rem;
+    text-align: left;
+}
+.weather-presenter {
+    margin-left: 2.8rem;
+}
