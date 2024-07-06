@@ -103,3 +103,80 @@ span {
 .weather-presenter {
     margin-left: 2.8rem;
 }
+.tutorials {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.play {
+    position: relative;
+    left: 90px;
+    top: -99px;
+    width: 64px;
+    height: 64px;
+
+    
+}
+.tutorial-title {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.video {
+    width: 255px;
+    height: 335px;
+   margin: 30px;
+}
+.video > h3 {
+    font-weight: 700;
+    font-size: 16px;
+}
+h3 + p {
+   font-weight: 400;
+   font-size: 14px;
+}
+.smallest-pic {
+    display: flex;
+   
+   
+}
+.smallest-pic > img {
+    width: 30px;
+    height: 30px;
+}
+.smallest-pic > h4 {
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    left: 5px;
+    bottom: 11px;
+    color: #C271FF;
+    margin-bottom: 5px;
+}
+.rating-min {
+    display: flex;
+    justify-content: space-between;
+}
+.rating-min > div {
+    display: flex;
+    width: 86px;
+    height: 27px;
+    color: #C271FF;
+}
+.rating-min > p {
+    position: relative;
+    right: 15px;
+    margin-top: auto;
+    font-weight: 600;
+    font-size: 14px;
+    color: #C271FF;
+}
+.last-star {
+    color: #D8D8D8;
+}
+.all-info-video {
+   position: relative;
+   top: -70px;
+   margin-left: 20px;
+    
+}
