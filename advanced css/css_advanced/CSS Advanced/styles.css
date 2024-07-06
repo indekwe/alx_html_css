@@ -1,0 +1,86 @@
+* {
+    font-family:  Source Sans Pro,sans-serif;
+}
+body {
+    background-image: url('./Object.png');
+    background-repeat: no-repeat;
+}
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navigations {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25rem;
+    list-style: none;
+    text-decoration: none;
+   
+    
+}
+.logo {
+    width: 8rem;
+    height: 2rem;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    filter: none;
+}
+.nav-links {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: small;
+}
+.intro {
+   text-align: center;
+    display: flexbox;
+    margin-top: 12rem;
+
+}
+.main-title {
+    color: aliceblue;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.smile-classes {
+    color: aliceblue;
+    margin-right: 5rem;
+    
+    
+}
+span {
+    margin-left: 5rem;
+    font-weight: bold;
+}
+.register-btn {
+    margin-top: 2rem;
+    background-color: rgb(165, 97, 224);
+    height: 44px;
+    width: 162px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.mentor-header {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 8rem;
+}
+.emphasize {
+    color: rgb(191, 128, 180);
+    font-weight: bolder ;
+}
+.mentors {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.mentor-text {
+    color: aliceblue;
+    text-align: center;
+}
+.rounding {
+    border-radius: 50%;
+    object-fit: cover;
+}
