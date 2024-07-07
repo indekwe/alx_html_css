@@ -232,3 +232,29 @@ h3 + p {
     width: 30rem;
     margin-bottom: 40px;
 }
+.footer {
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+
+footer > section {
+    background-color: #071629;
+    height: 249px;
+}
+.footer > img, .footer > div {
+        margin-top: 7rem;
+        
+}
+.footer > div {
+    color: white;
+}
+.copyright {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    opacity: 35.17%;
+    text-align: center;
+    margin-top: 3rem;
+}
