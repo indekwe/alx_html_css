@@ -1,0 +1,43 @@
+footer {
+  background-color: #071629;
+  height: 249px;
+  display: block;
+  unicode-bidi: isolate;
+}
+.svg-icons {
+  width: 20px;
+  height: 14px;
+  fill: #FFFFFF;
+}
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  height: 12rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.Logo {
+  height: auto;
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  column-gap: 5px;
+  color: #FFFFFF;
+  
+}
+@media (max-width: 480px) {
+  .footer-div {
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+ 
