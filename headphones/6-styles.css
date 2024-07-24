@@ -31,13 +31,7 @@ main article {
   align-items: center;
   flex-direction: column;
 }
-/* .pentagon-item {
-  height: 18rem;
-  width: 18rem;
-  background-image: url('./pentagone.png');
-  background-size: 13rem;
-  background-repeat: no-repeat;
-} */
+//creation of pentagon
 .pentagon-shape {
   position: relative;
   width: 18rem;
@@ -89,6 +83,7 @@ main article {
   padding-left: 3rem;
   padding-top: 5rem;
 }
+//responsiveness for tablet
 @media (max-width: 767px) and (min-width: 481px) {
   .pentagon {
     display: grid;
@@ -98,6 +93,7 @@ main article {
     padding-top: 5rem;
     gap: 2rem;
   }
+  //responsiveness for mobile phone
 }
 @media (max-width: 480px) {
   .pentagon {
